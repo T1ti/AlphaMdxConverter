@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "M2Lib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/M2Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/M2Lib.dll": {}
+        }
+      },
+      "MDXLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MDXLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MDXLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "M2Lib/1.0.0": {
+      "type": "project",
+      "path": "F:\\Téléchargements\\M2Lib-master\\M2Lib\\M2Lib.csproj",
+      "msbuildProject": "F:\\Téléchargements\\M2Lib-master\\M2Lib\\M2Lib.csproj"
+    },
+    "MDXLib/1.0.0": {
+      "type": "project",
+      "path": "F:\\Téléchargements\\MDX-Parser-master\\MDXLib\\MDXLib.csproj",
+      "msbuildProject": "F:\\Téléchargements\\MDX-Parser-master\\MDXLib\\MDXLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "M2Lib >= 1.0.0",
+      "MDXLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Titi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\titi tools\\alpha m2 converter\\Alpha m2 Converter\\Alpha m2 Converter\\Alpha m2 Converter.csproj",
+      "projectName": "Alpha m2 Converter",
+      "projectPath": "D:\\titi tools\\alpha m2 converter\\Alpha m2 Converter\\Alpha m2 Converter\\Alpha m2 Converter.csproj",
+      "packagesPath": "C:\\Users\\Titi\\.nuget\\packages\\",
+      "outputPath": "D:\\titi tools\\alpha m2 converter\\Alpha m2 Converter\\Alpha m2 Converter\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Titi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\Téléchargements\\M2Lib-master\\M2Lib\\M2Lib.csproj": {
+              "projectPath": "F:\\Téléchargements\\M2Lib-master\\M2Lib\\M2Lib.csproj"
+            },
+            "F:\\Téléchargements\\MDX-Parser-master\\MDXLib\\MDXLib.csproj": {
+              "projectPath": "F:\\Téléchargements\\MDX-Parser-master\\MDXLib\\MDXLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

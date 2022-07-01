@@ -1,0 +1,21 @@
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\Alpha m2 Converter.exe
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\Alpha m2 Converter.deps.json
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\Alpha m2 Converter.runtimeconfig.json
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\Alpha m2 Converter.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\Alpha m2 Converter.pdb
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.csproj.AssemblyReference.cache
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.GeneratedMSBuildEditorConfig.editorconfig
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.AssemblyInfoInputs.cache
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.AssemblyInfo.cs
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.csproj.CoreCompileInputs.cache
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\refint\Alpha m2 Converter.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.pdb
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.genruntimeconfig.cache
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\ref\Alpha m2 Converter.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\AlphaLib.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\M2Lib.dll
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\M2Lib.pdb
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\M2Lib.dll.config
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\bin\Debug\net6.0\AlphaLib.pdb
+D:\titi tools\alpha m2 converter\Alpha m2 Converter\Alpha m2 Converter\obj\Debug\net6.0\Alpha m2 Converter.csproj.CopyComplete

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Alpha m2 Converter/1.0.0": {
+        "dependencies": {
+          "M2Lib": "1.0.0",
+          "MDXLib": "1.0.0"
+        },
+        "runtime": {
+          "Alpha m2 Converter.dll": {}
+        }
+      },
+      "M2Lib/1.0.0": {
+        "runtime": {
+          "M2Lib.dll": {}
+        }
+      },
+      "MDXLib/1.0.0": {
+        "runtime": {
+          "AlphaLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alpha m2 Converter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M2Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDXLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
