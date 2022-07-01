@@ -458,19 +458,6 @@ namespace Alpha_m2_Converter
 
                             m2Vertex.BoneIndices = vertexProperty.Properties; // is it the same ?
 
-                            // testing byte shifts and endians
-                            // if (m2Vertex.BoneIndices[0] > 0)
-                            // {
-                            //     Console.WriteLine(mdxGeoset.BoneWeights[i]);
-                            //     // Console.WriteLine((mdxGeoset.BoneWeights[i] >> 24) & 0xFF );
-                            //     Console.WriteLine(m2Vertex.BoneWeights[0]);
-                            // }
-                            // if (mdxGeoset.BoneIndexes[i] > 0)
-                            // {
-                            //     Console.WriteLine(mdxGeoset.BoneIndexes[i]);
-                            //     Console.WriteLine((mdxGeoset.BoneIndexes[i]) & 0xFF);
-                            // }
-
                             Skinprofile.Indices.Add((ushort)(i + globalvertcount)); // add vertice id to skinprofile
                             M2Ouput.GlobalVertexList.Add(m2Vertex);
                             i++;
@@ -557,61 +544,7 @@ namespace Alpha_m2_Converter
 
                             layerId++;
                         }
-
-                        ////////// OLD without multi layering support ////////////
-                        // M2Batch m2Batch = new M2Batch();
-                        // if (geosetmaterial.Layers[0].TextureAnimationId != -1) // has animated texture
-                        //     { m2Batch.Flags = 0; } // 16 = static(default), 0 = animated.
-                        // m2Batch.Flags2 = (byte)geosetmaterial.PriorityPlane; // priority plane
-                        // m2Batch.ShaderId = 0;
-                        // m2Batch.SubmeshIndex = geosetid;
-                        // m2Batch.SubmeshIndex2 = geosetid; // seems unused
-                        // m2Batch.ColorIndex = -1; // doesn't exist in mdx ?
-                        // 
-                        // // ushort renderflags = 0;
-                        // if (geosetmaterial.Layers[0].Flags.HasFlag(MDXLib.MDLGEO.MODEL_GEO_UNSHADED))
-                        //     renderflags |= 0x01; // Unlit. assumning unshaded = Unlit.
-                        // 
-                        // if (geosetmaterial.Layers[0].Flags.HasFlag(MDXLib.MDLGEO.MODEL_GEO_TWOSIDED))
-                        //     renderflags |= 0x04;
-                        // if (geosetmaterial.Layers[0].Flags.HasFlag(MDXLib.MDLGEO.MODEL_GEO_UNFOGGED))
-                        //     renderflags |= 0x02;
-                        // if (geosetmaterial.Layers[0].Flags.HasFlag(MDXLib.MDLGEO.MODEL_GEO_NO_DEPTH_TEST))
-                        //     renderflags |= 0x08;
-                        // if (geosetmaterial.Layers[0].Flags.HasFlag(MDXLib.MDLGEO.MODEL_GEO_NO_DEPTH_SET))
-                        //     renderflags |= 0x10; // depthwrite = depthset ?
-                        // 
-                        // // m2Batch.RenderFlags = renderflags; // compeltely wrong, this is an idx to materials[]
-                        // m2Batch.Layer = 0;
-                        // m2Batch.OpCount = 1; // texture count, always 1 ?
-                        // // m2Batch.Texture = ((ushort)geosetmaterail.Layers[0].TextureId);
-                        // m2Batch.Texture = (ushort)mdxGeoset.MaterialId;
-                        // m2Batch.TexUnitNumber2 = 0; // always 0 ? multitexturing.
-                        // var transparancy = geosetmaterial.Layers[0].Alpha;
-                        // 
-                        // // add material to M2 root
-                        // M2Material m2Material = new M2Material();
-                        // m2Material.Flags = (M2Material.RenderFlags)renderflags;
-                        // m2Material.BlendMode = (M2Material.BlendingMode)geosetmaterial.Layers[0].BlendMode; // verify if blending modes match
-                        // 
-                        // // M2Ouput.TexLookup.Add((short)M2Ouput.Materials.Count()); // wrong, now done in tetxures chunk
-                        // M2Ouput.Materials.Add(m2Material);
-                        // 
-                        // M2TextureWeight m2TextureWeight = new M2TextureWeight();
-                        // 
-                        // m2Batch.Transparency = (ushort)M2Ouput.Transparencies.Count(); // add index 0
-                        // if (geosetmaterial.Layers[0].AlphaKeys != null)
-                        // {
-                        //     geosetmaterial.Layers[0].AlphaKeys.PopulateM2Track(m2TextureWeight.Weight, sequences);
-                        //     M2Ouput.TransLookup.Add((short)M2Ouput.Transparencies.Count()); // todo, make m2lib generate lookups
-                        //     M2Ouput.Transparencies.Add(m2TextureWeight); // currently adding 1 transparancy per group, check if we can not repeat them.
-                        // }
-                        // // maybe convert material static alpha to a transparancy entry
-                        // 
-                        // // m2Batch.TextureAnim // TODO.
-                        // 
-                        // Skinprofile.TextureUnits.Add(m2Batch);
-
+						
                         Skinprofile.Submeshes.Add(m2SkinSection);
 
                         geosetid++;
@@ -636,9 +569,6 @@ namespace Alpha_m2_Converter
                     if (M2Ouput.BoneLookup.Count() == 0)
                     {
                         M2Ouput.BoneLookup.Add(0);
-                        // M2Ouput.BoneLookup.Add(0);
-                        // M2Ouput.BoneLookup.Add(0);
-                        // M2Ouput.BoneLookup.Add(0);
                     }
 
                     // need an empty tex anim lookup ?
