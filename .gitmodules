@@ -1,0 +1,8 @@
+[submodule "M2Lib"]
+	path = M2Lib
+	url = https://github.com/Koward/M2Lib.git
+	branch = master
+[submodule "MDX-Parser"]
+	path = MDX-Parser
+	url = https://github.com/barncastle/MDX-Parser.git
+	branch = master
